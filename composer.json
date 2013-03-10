@@ -1,0 +1,24 @@
+{
+	"name": "fuelphp/oil",
+	"type": "library",
+	"description": "FuelPHP Oil package",
+	"keywords": ["Oil", "CLi"],
+	"homepage": "https://github.com/fuelphp/oil",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "FuelPHP Development Team",
+			"email": "team@fuelphp.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"require-dev": {
+		"mockery/mockery": "0.7.*"
+	},
+	"autoload": {
+		"psr-0": { "FuelPHP\\Oil": "src/" }
+	},
+	"minimum-stability": "dev"
+}
